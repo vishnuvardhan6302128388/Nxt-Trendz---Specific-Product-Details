@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 100px;
+  width: 90%;
+}
+.image {
+  width: 600px;
+  height: 750px;
+  border-radius: 20px;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+.titles {
+  font-size: 70px;
+  font-family: Roboto;
+}
+.price {
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.second-container {
+  display: flex;
+  align-items: center;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  height: 30px;
+}
+.rating {
+  color: white;
+}
+.reviews {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.description {
+  font-size: 17px;
+}
+.available {
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.brand {
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+span {
+  font-weight: normal;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+.btn {
+  margin-right: 10px;
+}
+.btn2 {
+  margin-left: 10px;
+}
+.hr {
+  color: black;
+}
+.btns {
+  background-color: #3b82f6;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.similar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 100px;
+  margin-top: 70px;
+}
+.heading {
+  font-size: 35px;
+  font-family: Roboto;
+  font-weight: normal;
+}
+.list-container {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.error {
+  width: 500px;
+}
+.head {
+  font-size: 60px;
+}
+.btnss {
+  background-color: #3b82f6;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}

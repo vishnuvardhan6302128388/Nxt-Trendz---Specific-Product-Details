@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.list-items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.img {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+}
+.title {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.brands {
+  font-size: 12px;
+}
+.prices {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+}
+.rating-cont {
+  background-color: #3b82f6;
+  height: 20px;
+  width: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.rating {
+  font-size: 12;
+}
